@@ -1,0 +1,22 @@
+.menu{
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.menu li{
+    border: 2px solid;
+    font-size: 20px;
+    margin: 2px;
+    padding: 5px;
+    background-color: #44E5BB;
+    float: left;
+}
+
+.banner{
+    text-align: center;
+}
+#bannerImg{
+    width: 720px;
+    height: auto;
+}
