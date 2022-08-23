@@ -4,18 +4,56 @@
     margin-left: auto;
     margin-right: auto; 
 }
-.menu li{
+.menu ul{
+    text-align: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.menu li{   
     border: 2px solid;
     font-size: 20px;
     margin: 2px;
     padding: 5px;
     background-color: #44E5BB;
-    float: left;
+    display: inline;
 }
 
 .banner{
     text-align: center;
 }
+
+.imagenes{
+    text-align: center;
+}
+.producto{
+    width: 30%;
+    height: auto;
+    border: 3px block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.formContacto{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#home{
+    background-color: peru;
+}
+
+#nosotros{
+    background-color: peru;
+}
+
+#contacto{
+    background-color: peru;
+}
+
 #bannerImg{
     width: 720px;
     height: auto;
