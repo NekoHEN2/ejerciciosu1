@@ -1,16 +1,22 @@
-.menu{
+a {
+    text-decoration: none;
+}
+
+.menu {
     text-align: center;
     list-style: none;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
-.menu ul{
+
+.menu ul {
     text-align: center;
     list-style: none;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
-.menu li{   
+
+.menu li {
     border: 2px solid;
     font-size: 20px;
     margin: 2px;
@@ -19,42 +25,62 @@
     display: inline;
 }
 
-.banner{
+.banner {
     text-align: center;
 }
 
-.imagenes{
+.imagenes {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
-.producto{
-    width: 30%;
+
+.producto {
+    width: 220px;
     height: auto;
     border: 3px block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
-.formContacto{
+.producto:hover {
+    border: 10px solid red;
+}
+
+.formContacto {
     text-align: center;
 }
 
-a{
-    text-decoration: none;
+.formulario {
+    width: 120px;
+    height: auto;
 }
 
-#home{
+#home {
     background-color: peru;
 }
 
-#nosotros{
+#nosotros {
     background-color: peru;
 }
 
-#contacto{
+#contacto {
     background-color: peru;
 }
 
-#bannerImg{
+#bannerImg {
     width: 720px;
     height: auto;
+}
+
+#img1 {
+    width: 220px;
+}
+
+#img2 {
+    width: 220px;
+}
+
+#img3 {
+    width: 220px;
 }

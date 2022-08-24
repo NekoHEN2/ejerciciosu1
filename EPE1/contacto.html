@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/home.css"/>
+    <link rel="stylesheet" href="css/home.css" />
     <title>Contacto</title>
 </head>
+
 <body>
     <ul class="menu">
         <li class="enlace"><a href="index.html" target="_blank">Home</a></li>
@@ -15,10 +17,11 @@
     </ul>
     <div class="formContacto">
         <h1>Contacto</h1>
-        <input type="text" placeholder="Nombre" /><br><br>
-        <input type="number" placeholder="Telefono" /><br><br>
-        <input type="email" placeholder="Correo" /><br><br>
-        <input type="text" placeholder="Direccion" /><br><br>
+        <input class="formulario" type="text" placeholder="Nombre" /><br><br>
+        <input class="formulario" type="number" placeholder="Telefono" maxLength="8" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0,this.maxLength);" /><br><br>
+        <textarea class="formulario" placeholder="Asunto"></textarea><br><br>
+        <input type="submit" />
     </div>
 </body>
+
 </html>
