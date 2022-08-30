@@ -1,24 +1,53 @@
 /*Menu*/
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 a {
     text-decoration: none;
-    font-style: normal;
+}
+
+section{
+    padding: 20px;
+}
+
+header div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.encabezado{
+    width: 100%;
+    background-color: rgb(158, 245, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
-    text-align: center;
     list-style: none;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu li {
-    border: 2px solid;
     font-size: 20px;
-    margin: 2px;
-    padding: 10px;
-    background-color: #44E5BB;
+    padding: 10px 20px;
     display: inline;
+}
+.menu li:hover{
+    background-color: #44E5BB;
+}
+
+#menuDes{
+    background-color: #44E5BB;
+    text-align: center;
+    padding: 20px;
+}
+
+#textoMenu{
+    background-color: peru;
 }
 
 #home {
