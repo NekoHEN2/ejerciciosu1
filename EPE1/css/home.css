@@ -1,52 +1,101 @@
 /*Menu*/
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
+    color: black;
 }
 
-section{
+ul {
+    list-style: none;
+}
+
+section {
     padding: 20px;
 }
 
-header div{
+header div {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.encabezado{
+.encabezado {
     width: 100%;
     background-color: rgb(158, 245, 222);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 60px;
+    padding: 0px 20px;
 }
 
-.menu {
-    list-style: none;
+.lista {
     display: flex;
     justify-content: space-between;
 }
 
-.menu li {
+.item {
     font-size: 20px;
-    padding: 10px 20px;
-    display: inline;
-}
-.menu li:hover{
-    background-color: #44E5BB;
+    padding: 19px 30px;
 }
 
-#menuDes{
+.item:hover {
+    background-color: #44E5BB;
+    border-bottom: solid rgb(46, 180, 174);
+}
+
+.listItems {
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    display: none;
+    top: 192%;
+    width: 140%;
+    background-color: rgb(158, 245, 222);
+}
+
+.listItems:hover>.slide {
+    display: block;
+}
+
+.listItems .slide li:hover>ul {
+    display: block;
+}
+
+.slide li {
+    position: relative;
+}
+
+.slide ul {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+
+.slide li a {
+    color: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.slide li a:hover {
+    border-bottom: solid rgb(80, 172, 167);
+}
+
+#menuDes {
     background-color: #44E5BB;
     text-align: center;
     padding: 20px;
 }
 
-#textoMenu{
+#textoMenu {
     background-color: peru;
 }
 
@@ -60,6 +109,13 @@ header div{
 
 #contacto {
     background-color: peru;
+}
+
+#botonCatalogo {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 
